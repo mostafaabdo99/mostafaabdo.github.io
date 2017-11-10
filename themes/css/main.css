@@ -1,0 +1,65 @@
+.navbar {
+	background-color:#000000;
+	color:#FFFFFF;
+}
+navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 60px;
+  padding: 15px;
+  width: auto;
+}
+
+li.activejumb a {
+background-color:#fdd82a;
+color:#FFFFFF;	
+}
+li.activejumb a:hover{
+background-color:#fdd82a;
+color:#FFFFFF;	
+}
+.example3 .navbar-brand {
+  height: 80px;
+}
+
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+
+/* CSS Transform Align Navbar Brand Text ... This could also be achieved with table / table-cells */
+.navbar-alignit .navbar-header {
+	  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 50px;
+}
+.navbar-alignit .navbar-brand {
+	top: 50%;
+	display: block;
+	position: relative;
+	height: auto;
+	-webkit-transform: translate(0,-50%);
+	        transform: translate(0,-50%);
+	margin-right: 15px;
+  margin-left: 15px;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	z-index: 9999;
+}
+
+.wdithfrist{
+ width:90%;
+}
+
+.fristhome{
+  background-color:#999;
+  padding:0;
+  margin:0;
+}
